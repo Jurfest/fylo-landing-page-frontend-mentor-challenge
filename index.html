@@ -22,59 +22,75 @@
       <a href="/">
         <img src="./images/logo.svg" alt="./images/default.svg">
       </a>
-      <a href="/features">Features</a>
-      <a href="/team">Team</a>
-      <a href="/signin">Sign In</a>
+      <div class="sub-links">
+        <a href="/features">Features</a>
+        <a href="/team">Team</a>
+        <a href="/signin">Sign In</a>
+      </div>
     </div>
   </header>
 
-  <div id="wrapper">
-    <div id="wrapper-text">
-      <h1>All your files in one secure location, accessible anywhere.</h1>
-      <p>
-        Fylo stores your most important files in one secure location.
-        Access them wherever you need, share and collaborate with friends,
-        family, and co-workers.
-      </p>
-    </div>
-    <input type="email" name="email">
-    <button type="submit">Get Started</button>
-    <img src="./images/illustration-1.svg" alt="default.svg">
-  </div>
-
-  <div id="wrapper">
-    <div id="wrapper-text">
-      <h1>Stay productive, wherever you are</h1>
-      <p>
-        Never let location be an issue when accessing your files. Fylo has you
-        covered for all of your file storage needs.
-      </p>
-      <p>
-        Securely share files and folders with friends, family and colleagues for
-        live collaboration. No email attachments required!
-      </p>
-      <div id="how-it-works">
-        <a href="http://www.google.com">See how Fylo works</a>
-        <img src="./images/icon-arrow.svg" alt="">
+  <div id="wrapper-one">
+    <div class="wrapper-left">
+      <div id="wrapper-text">
+        <h1>All your files in one secure location, accessible anywhere.</h1>
+        <p>
+          Fylo stores your most important files in one secure location.
+          Access them wherever you need, share and collaborate with friends,
+          family, and co-workers.
+        </p>
+      </div>
+      <div class="email">
+        <input type="email" name="email" placeholder="Enter your email...">
+        <button type="submit">Get Started</button>
       </div>
     </div>
-    <div id="get-started">
-      <input type="email" name="email">
-      <button type="submit">Get Started</button>
+    <div class="wrapper-right">
+      <img src="./images/illustration-1.svg" alt="default.svg">
     </div>
-    <img src="./images/illustration-2.svg" alt="default.svg">
   </div>
 
-
-  <div id="feedback">
-    <img src="./images/icon-quotes.svg" alt="./images/default.svg">
-    <p>Fylo has improved our team productivity by an order of magnitude. Since
-      making the switch our team has become a well-oiled collaboration machine.
-    </p>
-    <img src="./images/avatar-testimonial.jpg" alt="">
-    <p>Kyle Burton</p>
-    <p>Founder & CEO, Huddle</p>
-  </div>
+  <section class="banner">
+    <div id="wrapper-two">
+      <div class="wrapper-left-two">
+        <div id="wrapper-text">
+          <h1>Stay productive, wherever you are</h1>
+          <p>
+            Never let location be an issue when accessing your files. Fylo has you
+            covered for all of your file storage needs.
+          </p>
+          <p>
+            Securely share files and folders with friends, family and colleagues for
+            live collaboration. No email attachments required!
+          </p>
+          <div id="how-it-works">
+            <a href="http://www.google.com">See how Fylo works</a>
+            <img src="./images/icon-arrow.svg" alt="">
+          </div>
+        </div>
+        <div id="get-started">
+          <input type="email" name="email" placeholder="Enter your email...">
+          <button type="submit">Get Started</button>
+        </div>
+        <div id="feedback">
+          <img src="./images/icon-quotes.svg" alt="./images/default.svg" id="quotes">
+          <p>Fylo has improved our team productivity by an order of magnitude. Since
+            making the switch our team has become a well-oiled collaboration machine.
+          </p>
+          <div class="testimonial">
+            <img src="./images/avatar-testimonial.jpg" alt="" id="avatar">
+            <div class="person">
+              <p class="quote-name">Kyle Burton</p>
+              <p class="quote-role">Founder & CEO, Huddle</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="img-dialog">
+        <img src="./images/illustration-2.svg" alt="default.svg">
+      </div>
+    </div>
+  </section>
 
   <div id="wrapper-bottom">
       <h2>Get early access today</h2>

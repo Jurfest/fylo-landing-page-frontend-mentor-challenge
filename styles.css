@@ -172,9 +172,16 @@ header {
 
 #wrapper-bottom {
   background-color: var(--desaturated-blue);
+  height: 200px;
 }
 
 #footer {
+  background-color: var(--very-dark-blue);
+  color: white;
+  height: 400px;
+}
+
+footer {
   background-color: var(--very-dark-blue);
   color: white;
 }

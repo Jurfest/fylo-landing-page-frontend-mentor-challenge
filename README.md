@@ -1,6 +1,6 @@
 # Frontend Mentor - Fylo landing page with two column layout
 
-A demo Front-End website of a fictitious digital file storage company.
+A demo website of a fictitious digital file storage company.
 
 ![Design preview for the Fylo landing page with two column layout challenge](./design/desktop-preview.jpg)
 
@@ -8,7 +8,7 @@ You can check the result [here](fylo-landing-page-frontend-mentor-challenge-fmds
 
 ## Welcome! 👋
 
-Thanks for checking my solution of this front-end coding challenge.
+Thanks for checking my solution of this Front-End coding challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
 

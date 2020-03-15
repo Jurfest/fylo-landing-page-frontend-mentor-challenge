@@ -55,6 +55,7 @@ header {
 
 .sub-links a:hover{
   color: var(--light-gray);
+  transition: ease-in-out;
 }
 
 #wrapper-one {
@@ -138,23 +139,90 @@ header {
 
 }
 
+.wrapper-left-two h1 {
+  margin-left: 100px;
+  width: 600px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.wrapper-left-two p {
+  font-size: 20px;
+  width: 500px;
+  margin-left: 100px;
+  width: 550px;
+  color: var(--very-dark-blue);
+}
+
+#how-it-works {
+  margin-left: 100px;
+  margin-top: 15px;
+}
+
+#how-it-works a {
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  color: var(--moderate-cyan);
+}
+
+.line {
+  background-color: var(--moderate-cyan);
+  height: 1px;
+  width: 170px;
+  margin-left: 100px;
+  margin-top: 5px;
+}
+
+.wrapper-left-two p + p {
+  margin-top: 15px;
+}
+
 .img-dialog img{
-  width: 50%;
-  height: 50%;
+  width: 60%;
+  height: 60%;
+  margin-left: 150px;
 }
 
 #feedback {
   width: 340px;
+  margin-top: 15px;
   /* height: 200px; */
   background-color: white;
   padding: 32px;
-  margin-left: 30px;
+  margin-left: 100px;
   border-radius: 8px;
   margin-bottom: 150px;
 }
 
+#feedback p {
+  margin-left: 0px;
+  font-size: 14px;
+  width: 300px;
+}
+
 .testimonial {
   display: flex;
+  align-self: center;
+}
+
+.person {
+  margin-left: 10px;
+}
+
+.person p {
+  margin-left: 10px;
+}
+
+.person p:last-child {
+  margin-top: 0px;
+}
+
+.quote-name{
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 100px;
 }
 
 #quotes {
@@ -172,17 +240,188 @@ header {
 
 #wrapper-bottom {
   background-color: var(--desaturated-blue);
-  height: 200px;
+  height: 250px;
+  color: white;
+  display: flex;
+}
+
+#wrapper-bottom-texts h2{
+  margin-left: 100px;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 60px 0 0 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+#wrapper-bottom-texts p {
+  margin-left: 100px;
+  width: 500px;
+  margin-top: 20px;
+}
+
+#wrapper-bottom-texts p + p {
+  margin-top: 0px;
+}
+
+#get-started {
+  align-self: center;
+  margin-left: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+#get-started input {
+  border: 1px solid var(--very-dark-blue);
+  padding: 4px 8px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 10px;
+  width: 400px;
+  margin-left: 14px;
+}
+
+#get-started button {
+  background-color: var(--bright-blue);
+  margin-left: 15px;
+  padding: 13px;
+  border-radius: 4px;
+  color: white;
+  font-size: 14px;
+  width: 200px;
+  margin-top: 20px;
+}
+
+#get-started button:hover {
+  cursor: pointer;
 }
 
 #footer {
   background-color: var(--very-dark-blue);
   color: white;
   height: 400px;
+  display: flex;
 }
 
 footer {
   background-color: var(--very-dark-blue);
   color: white;
+}
+
+.footer-first-column {
+  padding: 60px;
+}
+
+.footer-logo {
+  -webkit-filter: invert(0.9);
+  filter: invert(0.9);
+}
+
+.footer-logo:hover {
+  cursor: pointer;
+}
+
+#phone {
+  display: flex;
+  margin-top: 10px;
+}
+
+#phone p {
+  margin-left: 10px;
+}
+
+#email {
+  display: flex;
+  margin-top: 10px;
+}
+
+#email p {
+  margin-left: 10px;
+}
+
+#items-column-one {
+  padding: 110px 0px 0 0;
+  margin-left: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+#items-column-two {
+  padding: 110px 0px 0 0;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+#items-column-one a,
+#items-column-two a {
+  margin-top: 15px;
+}
+
+#items-column-one a:hover,
+#items-column-two a:hover {
+  color: var(--light-gray);
+}
+
+.footer-link {
+  text-decoration: none;
+  color: white;
+}
+
+.social-column{
+  padding: 125px 0 0 0;
+  margin-left: 350px;
+}
+
+ul {
+  list-style-type: none
+}
+
+.visuallyHidden {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  white-space: nowrap
+}
+
+.footer-socials {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center
+}
+
+.social {
+  width: 2.75rem;
+  height: 2.75rem;
+  margin: 0 .5rem;
+  border: 1px solid #fbfbfe;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  color: #fbfbfe;
+  font-size: 1.5rem;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center
+} 
+
+.social:hover {
+  opacity: .5;
 }
 

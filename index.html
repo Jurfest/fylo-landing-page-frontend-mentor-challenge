@@ -15,6 +15,8 @@
   </style>
 
   <link rel="stylesheet" href="/styles.css">
+  <!-- Social Icons: -->
+  <script defer src="https://kit.fontawesome.com/71030c71f1.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <header>
@@ -67,6 +69,7 @@
             <a href="http://www.google.com">See how Fylo works</a>
             <img src="./images/icon-arrow.svg" alt="">
           </div>
+          <div class="line"></div>
         </div>
         <div id="feedback">
           <img src="./images/icon-quotes.svg" alt="./images/default.svg" id="quotes">
@@ -89,46 +92,87 @@
   </section>
 
   <div id="wrapper-bottom">
+    <div id="wrapper-bottom-texts">
       <h2>Get early access today</h2>
       <p>
-        It only takes a minute to sign up and our free starter tier is extremely generous.
-        If you have any questions, our support team would be happy to help you.
+        It only takes a minute to sign up and our free starter tier is 
       </p>
-      <div id="get-started">
-        <input type="email" name="email">
-        <button type="submit">Get Started For Free</button>
-      </div>
+      <p>
+        extremely generous. If you have any questions, our support team 
+        would be happy to help you.
+      </p>
+    </div>
+    <div id="get-started">
+      <input type="email" name="email" placeholder="email@example.com">
+      <button type="submit">Get Started For Free</button>
+    </div>
   </div>
 
   <div id="footer">
-    <img src="./images/logo.svg" alt="">
-    <div id="phone">
-      <img src="./images/icon-phone.svg" alt="">
-      <p>Phone: +1-543-123-4567</p>
-    </div>
-    <div id="email">
-      <img src="./images/icon-email.svg" alt="">
-      <p>example@fylo.com</p>
-    </div>
-
-    <div id="items-column">
-      <p>About Us</p>
-      <p>Jobs</p>
-      <p>Press</p>
-      <p>Blog</p>
+    <div class="footer-first-column">
+      <a href="/">
+        <img src="./images/logo.svg" alt="Fylo" class="footer-logo">
+      </a>
+      <div id="phone">
+        <img src="./images/icon-phone.svg" alt="">
+        <p>Phone: +1-543-123-4567</p>
+      </div>
+      <div id="email">
+        <img src="./images/icon-email.svg" alt="">
+        <p>example@fylo.com</p>
+      </div>
     </div>
 
-    <div id="items-column">
-      <p>Contact Us</p>
-      <p>Terms</p>
-      <p>Privacy</p>
+    <div id="items-column-one">
+      <a href="#" class="footer-link">
+        About Us
+      </a>
+      <a href="#" class="footer-link">
+        Jobs
+      </a>
+      <a href="#" class="footer-link">
+        Press
+      </a>
+      <a href="#" class="footer-link">
+        Blog
+      </a>
     </div>
 
-    <div id="social-media-column">
-      <img src="./images/facebook" alt=""> <!-- get from material icons -->
-      <img src="./images/twitter" alt="">
-      <img src="./images/instagram" alt="">
+    <div id="items-column-two">
+      <a href="#" class="footer-link">
+        Contact Us
+      </a>
+      <a href="#" class="footer-link">
+        Terms
+      </a>
+      <a href="#" class="footer-link">
+        Privacy
+      </a>
     </div>
+
+    <div class="social-column">
+      <ul class="footer-socials">
+        <li>
+          <a href="#" class="social">
+            <i class="fab fa-facebook-f"></i>
+            <span class="visuallyHidden">Facebook.</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="social">
+            <i class="fab fa-twitter"></i>
+            <span class="visuallyHidden">Twitter.</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="social">
+            <i class="fab fa-instagram"></i>
+            <span class="visuallyHidden">Instagram.</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
   </div>
 
   <footer>

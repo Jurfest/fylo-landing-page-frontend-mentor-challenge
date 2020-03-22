@@ -4,7 +4,7 @@ A demo website of a fictitious digital file storage company.
 
 ![Design preview for the Fylo landing page with two column layout challenge](./design/desktop-preview.jpg)
 
-You can check the result [here](fylo-landing-page-frontend-mentor-challenge-fmds0ci3w.now.sh)!
+You can check the result [here](https://fylo-landing-page-frontend-mentor-challenge-1whzsw5yq.now.sh)!
 
 ## Welcome! 👋
 

@@ -179,6 +179,10 @@ header nav ul li a:hover {
   font-size: 1.6rem;
 }
 
+.v-middle {
+  vertical-align: middle;
+}
+
 #how-it-works a {
   font-family: 'Raleway', sans-serif;
   text-decoration: none;

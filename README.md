@@ -6,9 +6,9 @@ A demo website of a fictitious digital file storage company.
 
 You can check the result [here](https://fylo-landing-page-frontend-mentor-challenge-1whzsw5yq.now.sh)!
 
-## Welcome! 👋
+## Welcome!
 
-Thanks for checking my solution of this Front-End coding challenge.
+Thanks for checking my solution of this frontend coding challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
 
@@ -19,6 +19,8 @@ There are a number of ways to host your project for free. Following the Frontend
 1. [Sign up to Vercel Now](http://bit.ly/fem-zeit-signup) and go through the onboarding flow, ensuring your GitHub account is connected by using their [Vercel Now for GitHub](https://zeit.co/docs/v2/git-integrations/zeit-now-for-github) integration.
 2. Connect your project to Vercel Now from the ["Create a new project" page](https://zeit.co/new), using the "New Project From GitHub" button and selecting the project you want to deploy.
 3. Once connected, every time you `git push`, Vercel Now will create a new [deployment](https://zeit.co/docs/v2/platform/deployments) and the deployment URL will be shown on your [Vercel Dashboard](https://zeit.co/dashboard). You will also receive an email for each deployment with the URL.
+
+  Source: [Frontend Mentor](https://www.frontendmentor.io).
 
 ### :computer: Technologies
 

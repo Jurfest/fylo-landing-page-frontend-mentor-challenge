@@ -14,11 +14,11 @@ Thanks for checking my solution of this Front-End coding challenge.
 
 ## How this project was deployed with Vercel (formerly ZEIT)
 
-There are a number of ways to host your project for free. Following the Frontend Mentor recommendation, this project was deployed using [Vercel Now](http://bit.ly/fem-zeit). If you'd like to use ZEIT, here are some steps to follow to get started:
+There are a number of ways to host your project for free. Following the Frontend Mentor recommendation, this project was deployed using [Vercel Now](http://bit.ly/fem-zeit). If you'd like to use Vercel, here are some steps to follow to get started:
 
 1. [Sign up to Vercel Now](http://bit.ly/fem-zeit-signup) and go through the onboarding flow, ensuring your GitHub account is connected by using their [Vercel Now for GitHub](https://zeit.co/docs/v2/git-integrations/zeit-now-for-github) integration.
-2. Connect your project to ZEIT Now from the ["Create a new project" page](https://zeit.co/new), using the "New Project From GitHub" button and selecting the project you want to deploy.
-3. Once connected, every time you `git push`, ZEIT Now will create a new [deployment](https://zeit.co/docs/v2/platform/deployments) and the deployment URL will be shown on your [Vercel Dashboard](https://zeit.co/dashboard). You will also receive an email for each deployment with the URL.
+2. Connect your project to Vercel Now from the ["Create a new project" page](https://zeit.co/new), using the "New Project From GitHub" button and selecting the project you want to deploy.
+3. Once connected, every time you `git push`, Vercel Now will create a new [deployment](https://zeit.co/docs/v2/platform/deployments) and the deployment URL will be shown on your [Vercel Dashboard](https://zeit.co/dashboard). You will also receive an email for each deployment with the URL.
 
 ### :computer: Technologies
 

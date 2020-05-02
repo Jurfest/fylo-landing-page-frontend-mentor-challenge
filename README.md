@@ -12,7 +12,7 @@ Thanks for checking my solution of this frontend coding challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
 
-### :computer: Technologies
+## :computer: Technologies
 
 - [HTML](https://www.w3.org)
 - [CSS](https://www.w3.org/Style/CSS/Overview.en.html)

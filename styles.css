@@ -740,7 +740,7 @@ ul {
   #footer {
     background-color: var(--very-dark-blue);
     color: white;
-    height: 100rem;
+    height: 73rem;
     font-size: 1.6rem;
   }
 
@@ -749,6 +749,8 @@ ul {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    margin-left: 5rem;
+
   }
 
   footer {
@@ -771,7 +773,7 @@ ul {
 
   .container-two #phone {
     display: flex;
-    margin-top: 1rem;
+    margin-top: 4rem;
   }
 
   .container-two #phone p {
@@ -780,7 +782,7 @@ ul {
 
   .container-two #email {
     display: flex;
-    margin-top: 1rem;
+    margin-top: 2.5rem;
   }
 
   .container-two #email p {
@@ -788,85 +790,19 @@ ul {
   }
 
   #items-column-one {
-    padding: 11rem 0rem 0 0;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
+    padding: 3rem 0rem 0 0;
+    margin-left: 0;
   }
 
   #items-column-two {
-    padding: 11rem 0 0 0;
-    /* margin-left: 100px; */
-    display: flex;
-    flex-direction: column;
+    padding: 3rem 0 0 0;
   }
 
-  #items-column-one a,
-  #items-column-two a {
-    margin-top: 1.5rem;
-  }
 
-  #items-column-one a:hover,
-  #items-column-two a:hover {
-    color: var(--light-gray);
-  }
-
-  .footer-link {
-    text-decoration: none;
-    color: white;
-  }
 
   .social-column {
-    padding: 12rem 0 0 0;
+    padding: 4rem 5rem 0 0;
     margin: 0 auto;
-  }
-
-  ul {
-    list-style-type: none
-  }
-
-  .visuallyHidden {
-    position: absolute;
-    height: 0.1rem;
-    width: 0.1rem;
-    overflow: hidden;
-    clip: rect(0.1rem 0.1rem 0.1rem 0.1rem);
-    white-space: nowrap
-  }
-
-  .footer-socials {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center
-  }
-
-  .social {
-    width: 3.4rem;
-    height: 3.4rem;
-    margin: 0.8rem;
-    border: 0.1rem solid #fbfbfe;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    color: #fbfbfe;
-    font-size: 1.8rem;
-    text-decoration: none;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center
   }
 
 }

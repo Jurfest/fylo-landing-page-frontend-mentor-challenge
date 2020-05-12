@@ -281,6 +281,7 @@ header nav ul li a:hover {
 
 #wrapper-bottom .container {
   max-width: 130rem;
+  max-width: 100%;
   display: flex;
   margin: 0 auto;
 }
@@ -293,7 +294,7 @@ header nav ul li a:hover {
 }
 
 #wrapper-bottom-texts p {
-  width: 50rem;
+  max-width: 50rem;
   margin-top: 2rem;
   font-size: 1.6rem;
 }
@@ -614,7 +615,7 @@ ul {
 
   #wrapper-text p {
     text-align: center;
-    width: 45rem;
+    max-width: 45rem;
     margin: 0 auto;
   }
 
@@ -623,7 +624,7 @@ ul {
   }
 
   .wrapper-left-two h1 {
-    width: 70rem;
+    max-width: 70rem;
     font-family: 'Raleway', sans-serif;
     font-size: 4.0rem;
     font-weight: bold;
@@ -682,10 +683,12 @@ ul {
 
   #wrapper-bottom-texts {
     text-align: center;
+    max-width: 100%;
   }
 
   #wrapper-bottom-texts p {
     margin: 0 auto;
+    max-width: 100%;
   }
 
   #wrapper-bottom-texts p:nth-child(2) {
@@ -909,7 +912,7 @@ ul {
   } */
 
    header nav ul li a {
-     margin-right: 1.0rem;
+     margin-right: 0.5rem;
      /* font-size: 4px; */
    }
 
@@ -960,7 +963,7 @@ ul {
   } */
 
   header nav ul li a {
-    margin-right: 1.0rem;
+    margin-right: 0.5rem;
     font-size: 5px;
   }
 

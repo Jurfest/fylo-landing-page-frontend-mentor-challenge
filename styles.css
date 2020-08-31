@@ -281,7 +281,6 @@ header nav ul li a:hover {
 
 #wrapper-bottom .container {
   max-width: 130rem;
-  max-width: 100%;
   display: flex;
   margin: 0 auto;
 }
